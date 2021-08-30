@@ -1,3 +1,4 @@
 # Mobile first development starter
 
-Take a few moments to read through the HTML and CSS and make sure that you understand how it all works. Use VSCode Live Server to launch a local development server to serve the `index.html` file.
+<img width="1280" alt="Screen Shot 2021-08-30 at 2 24 57 PM" src="https://user-images.githubusercontent.com/87321366/131393830-060a1f19-57ff-403d-b9ea-8a57f6a276dd.png">
+
