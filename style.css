@@ -31,14 +31,14 @@ main p {
 .row {
   display: flex;
   flex-direction: column;
-  margin: 5% 0;
+  margin: 3% 0;
+  padding: 0 3%;
 }
 
-.col {
-  display: flex;
-  flex: 1;
+.col, .double-col {
   flex-direction: column;
   margin: 5% 0;
+  flex: 1;
 }
 
 .item {
@@ -58,11 +58,14 @@ img {
 
   .row {
     flex-direction: row;
-    padding: 5%;
+    padding: 3%;
   }
 
-  .col {
-    flex-direction: column;
+  .col, .double-col {
+    margin: 0 1%;
   }
 
+  .double-col {
+    flex: 2;
+  }
 }
