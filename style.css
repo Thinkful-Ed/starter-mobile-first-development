@@ -1,5 +1,8 @@
 main {
   margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 main h1 {
@@ -26,4 +29,15 @@ main h3 {
 main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-itmes: center;
+  }
 }
